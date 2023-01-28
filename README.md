@@ -9,7 +9,7 @@
 - [x] Should return 400 if a invalid email is provided
 - [x] Should return 500 if EmailValidator throws
 - [x] Should call AddAccount with correct values
-- [ ] ...
+- [x] Ensure SignUpController return 201 if valid data provided
 
 <br>
 
