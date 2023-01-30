@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest --watch --noStackTrace",
+    "test:unit": "jest --watch --silent --noStackTrace -c jest-unit-config.js",
+    "test:integration": "jest --watch --silent --noStackTrace -c jest-integration-config.js",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
